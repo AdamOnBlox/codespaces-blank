@@ -1,0 +1,40 @@
+# MentionNotifier plugin
+# Made by PoutineQc
+# en-US.yml - Language file
+
+# Basic Messages
+prefixShort: "&7[&6MD&7] "
+developper: "&6Developped by: &7%developper%"
+version: "&6Version: &7%version%"
+description: "&eType &6/%command% help &e for the list of commands."
+
+# Mention Messages
+actionBarMessage: "You were mentionned in the chat by %player%"
+chatMessage: "&0&k$&f&k$&0&k$&r &6&lYou &ewere mentionned in the chat by &4&l%player% &0&k$&f&k$&0&k$"
+titleMessage: "mentioned you"
+
+# Error Messages
+missingPermission: "&4You don't have the permission to do this"
+commandError: "&cCommand not found.  Type &8/%cmd% help &cfor help."
+helpNoPermission: "&cYou do not have the permissions to do any commands."
+
+# Ignore List Messages
+alreadyInIgnoreList: "&cYou are already in the ignore list"
+addedToIgnoreList: "&eYou have been added to the ignore list. Do &6/mn rejoin &eto get the notifications again"
+notInIgnoreList: "&cYou are not in the ignore list at the moment."
+removedFromIgnoreList: "&eYou have been removed from the ignore list"
+adviceRejoin: "&eTo get notified when mentionned in the chat, do &6/mn rejoin"
+adviceIgnore: "&eTo no longer get notified when mentionned in the chat, do &6/mn ignore"
+
+# Admin Messages
+reloadComplete: "&eConfig, language and ignore list successfully reloaded."
+
+# KeyWords
+keyWordHelp: "Help"
+keyWordPage: "Page"
+
+# Commands help
+cmd-desc-ignore: "No longer get notified when mentionned in chat"
+cmd-desc-rejoin: "Get notified again when mentionned in the chat"
+cmd-desc-demo: "Displays an example of a notification"
+cmd-desc-reload: "Reloads the config, the language and the ignore list"

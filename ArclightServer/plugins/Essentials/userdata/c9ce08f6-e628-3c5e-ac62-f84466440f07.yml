@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.23.53.60
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1722082650073
+  login: 1722082649847
+money: '0'
+logoutlocation:
+  world: 5fbf320c-f068-4662-bd3d-958707e89949
+  world-name: Welcome
+  x: 0.0
+  y: -60.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+last-account-name: Adam_

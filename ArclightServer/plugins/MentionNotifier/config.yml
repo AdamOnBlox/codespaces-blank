@@ -1,0 +1,54 @@
+# MentionDetector plugin
+# Made by PoutineQc
+# config.yml - Config File
+
+# Currently available languages:
+# English - "en"
+# French - "fr"
+# You may make another YAML file with another language
+# Simply put it in the LanguageFiles folder and write it's name here (without the ".yml")
+language: en
+
+# If you want the plugin's prefix ([md] if not changed) to be displayed in front of every messages
+prefixInFrontOfEveryMessage: true
+
+# Choose the sound number you want
+# Leave it blank for no sounds
+# You need yo put the exact name depending on your server version or it won't work
+# Be careful, it's case-sensitive
+# 1.8- Sounds : http://poutineqc.ca/Spigot-API-1.8.0/org/bukkit/Sound.html
+# 1.9+ Sounds : http://poutineqc.ca/Spigot-API-1.9.0/org/bukkit/Sound.html
+sound: ""
+
+# Visual notifications available:
+# - TITLE
+# - ACTION_BAR
+# - CHAT
+# - BOLD         | WARNING | Must also have the plugin ProtocolLib for this feature
+# Leave it blank for no visual notification
+visualNotification : "TITLE"
+
+# Different colors that will flash for the action bar and title message
+# Each color will be displayed with a 3 tick (150 ms) delay between each of them.
+# +---------------------------------------------------------------------+
+# | 0 | Black      | 4 | Dark Red    | 8 | Dark Gray | c | Red          |
+# | 1 | Dark Blue  | 5 | Dark Purple | 9 | Blue      | d | Light Purple |
+# | 2 | Dark Green | 6 | Gold        | a | Green     | e | Yellow       |
+# | 3 | Dark Aqua  | 7 | Gray        | b | Aqua      | f | White        |
+# +---------------------------------------------------------------------+
+packetMessageColors:
+  - 6
+  - 4
+  - 9
+  - 4
+  - 6
+
+# An message informing the player about the ignore command will be sent to him
+# every x mention to the player (where x is the number you choose)
+# Set this to -1 to never send advices.
+adviceInterval: 25
+
+# An message informing the player about the ignore command will be sent to him
+# every time he logs in.
+# Set this to false to never send advices on player join.
+adviceOnPlayerJoin: true

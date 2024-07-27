@@ -1,0 +1,1 @@
+java -Xmx6G -Xms2G -jar /workspaces/codespaces-blank/PaperServer/Paper.jar nogui

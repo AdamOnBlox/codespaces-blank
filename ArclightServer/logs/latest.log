@@ -1,0 +1,751 @@
+[27Jul2024 12:02:41.864] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.20.4 Arclight arclight-1.20.4-1.0.4-80ec5df with Fabric Loader 0.15.11
+mainEx[27Jul2024 12:02:42.115] [main/INFO] [FabricLoader/]: Loading 43 mods:
+	- arclight 1.0.4+80ec5df
+	- fabric-api 0.97.1+1.20.4
+	   |-- fabric-api-base 0.4.37+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.17+78d798af4f
+	   |-- fabric-block-api-v1 1.0.17+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.5+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.47+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.8+78d798af4f
+	   |-- fabric-command-api-v1 1.2.42+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.21+78d798af4f
+	   |-- fabric-commands-v0 0.2.59+df3654b34f
+	   |-- fabric-containers-v0 0.1.87+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.16+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.11+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.5+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.63+6605d1a84f
+	   |-- fabric-entity-events-v1 1.6.2+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.2+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.75+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	   |-- fabric-item-api-v1 2.3.0+bcdd12964f
+	   |-- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	   |-- fabric-key-binding-api-v1 1.0.42+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.40+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.10+78d798af4f
+	   |-- fabric-message-api-v1 6.0.6+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.9+78d798af4f
+	   |-- fabric-models-v0 0.4.8+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.8+2e5ac5484f
+	   |-- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	   |-- fabric-particles-v1 1.1.8+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.21+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.20+ee30b13a4f
+	   |-- fabric-renderer-api-v1 3.2.5+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.6+d331d3144f
+	   |-- fabric-renderer-registries-v1 3.2.54+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	   |-- fabric-rendering-v0 1.1.57+df3654b34f
+	   |-- fabric-rendering-v1 3.2.1+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	   |-- fabric-screen-api-v1 2.0.18+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.56+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.18+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	   \-- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 21
+	- minecraft 1.20.4
+mainEx[27Jul2024 12:02:42.281] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/codespaces-blank/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+mainEx[27Jul2024 12:02:42.404] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
+mainEx[27Jul2024 12:02:43.121] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[27Jul2024 12:02:43.127] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 附耳 (Whisper) / arclight-1.20.4-1.0.4-80ec5df
+    Build Date 2024-06-14 12:05:55
+
+mainEx[27Jul2024 12:02:45.197] [main/INFO] [FabricLoader/MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+mainEx[27Jul2024 12:03:00.916] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+mainEx[27Jul2024 12:03:04.103] [main/INFO] [net.minecraft.class_1863/]: Loaded 7 recipes
+mainEx[27Jul2024 12:03:04.434] [main/INFO] [net.minecraft.class_163/]: Loaded 1271 advancements
+mainEx[27Jul2024 12:03:05.110] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/]: Applied 0 biome modifications to 0 of 64 new biomes in 2.465 ms
+mainEx[27Jul2024 12:03:05.125] [Server thread/INFO] [net.minecraft.class_3176/]: Starting minecraft server version 1.20.4
+Server threadEx[27Jul2024 12:03:05.125] [Server thread/INFO] [net.minecraft.class_3176/]: Loading properties
+Server threadEx[27Jul2024 12:03:05.125] [Server thread/INFO] [net.minecraft.class_3176/]: Default game type: ADVENTURE
+Server threadEx[27Jul2024 12:03:05.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+Server threadEx[27Jul2024 12:03:05.449] [Server thread/INFO] [net.minecraft.class_3176/]: Starting Minecraft server on *:25565
+Server threadEx[27Jul2024 12:03:05.580] [Server thread/INFO] [net.minecraft.class_3242/]: Using epoll channel type
+Server threadEx[27Jul2024 12:03:05.698] [Server thread/WARN] [net.minecraft.class_3176/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+Server threadEx[27Jul2024 12:03:05.698] [Server thread/WARN] [net.minecraft.class_3176/]: The server will make no attempt to authenticate usernames. Beware.
+Server threadEx[27Jul2024 12:03:05.698] [Server thread/WARN] [net.minecraft.class_3176/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+Server threadEx[27Jul2024 12:03:05.698] [Server thread/WARN] [net.minecraft.class_3176/]: To change this, set "online-mode" to "true" in the server.properties file.
+Server threadEx[27Jul2024 12:03:06.209] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.4-1.0.4-80ec5df (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+Server threadEx[27Jul2024 12:03:07.181] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+Server threadEx[27Jul2024 12:03:07.240] [Server thread/INFO] [Arclight/]: Registered 0 new materials with 0 blocks and 0 items
+Server threadEx[27Jul2024 12:03:07.606] [Server thread/INFO] [Arclight/]: Registered 0 new entity types
+Server threadEx[27Jul2024 12:03:07.607] [Server thread/INFO] [Arclight/]: Registered 0 new villager professions
+Server threadEx[27Jul2024 12:03:07.608] [Server thread/INFO] [Arclight/]: Registered 0 new biomes
+Server threadEx[27Jul2024 12:03:07.651] [Server thread/INFO] [net.minecraft.class_2983/]: [STDOUT]: Server Ping Player Sample Count: 12
+Server threadEx[27Jul2024 12:03:07.654] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+Server threadEx[27Jul2024 12:03:07.655] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+Server threadEx[27Jul2024 12:03:08.112] [Server thread/INFO] [Arclight/]: Loading mappings ...
+Server threadEx[27Jul2024 12:03:08.822] [Server thread/INFO] [Arclight/]: Loading plugin patchers ...
+Server threadEx[27Jul2024 12:03:09.017] [Server thread/INFO] [net.minecraft.class_2983/]: [STDERR]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+Server threadEx[27Jul2024 12:03:13.203] [Server thread/WARN] [Minecraft/]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+Server threadEx[27Jul2024 12:03:14.667] [Server thread/WARN] [Minecraft/]: Legacy plugin MentionNotifier v1.2.2 does not specify an api-version.
+Server threadEx[27Jul2024 12:03:15.409] [Server thread/WARN] [Minecraft/]: Legacy plugin SignColors v1.1.1 does not specify an api-version.
+Server threadEx[27Jul2024 12:03:15.503] [Server thread/INFO] [Minecraft/]: [PvPManager] Loading 2 libraries... please wait
+Server threadEx[27Jul2024 12:03:15.652] [Server thread/INFO] [Minecraft/]: [PvPManager] Loaded library /workspaces/codespaces-blank/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+Server threadEx[27Jul2024 12:03:15.653] [Server thread/INFO] [Minecraft/]: [PvPManager] Loaded library /workspaces/codespaces-blank/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+Server threadEx[27Jul2024 12:03:15.677] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.11.6
+Server threadEx[27Jul2024 12:03:15.678] [Server thread/INFO] [OnePlayerSleep/]: Loading OnePlayerSleep v1.3
+Server threadEx[27Jul2024 12:03:15.678] [Server thread/INFO] [ViaVersion/]: Loading ViaVersion v5.0.1
+Server threadEx[27Jul2024 12:03:15.742] [Server thread/INFO] [ViaVersion/]: ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+Server threadEx[27Jul2024 12:03:17.247] [Via-Mappingloader-0/INFO] [ViaVersion/]: Loading block connection mappings ...
+Via-Mappingloader-0Ex[27Jul2024 12:03:17.700] [Via-Mappingloader-0/INFO] [ViaVersion/]: Using FastUtil Long2ObjectOpenHashMap for block connections
+Via-Mappingloader-0Ex[27Jul2024 12:03:18.189] [Server thread/INFO] [ViaBackwards/]: Loading translations...
+Server threadEx[27Jul2024 12:03:18.218] [Server thread/INFO] [ViaBackwards/]: Registering protocols...
+Server threadEx[27Jul2024 12:03:19.252] [Server thread/INFO] [CS-CoreLib/]: Loading CS-CoreLib v1.6.3
+Server threadEx[27Jul2024 12:03:19.252] [Server thread/INFO] [floodgate/]: Loading floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+Server threadEx[27Jul2024 12:03:19.882] [Server thread/WARN] [floodgate/]: en_ is not a supported Floodgate language.
+Server threadEx[27Jul2024 12:03:19.983] [Server thread/ERROR] [org.bukkit.craftbukkit.v1_20_R3.CraftServer/]: Unable to create injector, see the following errors:
+
+1) Error notifying InjectionListener CommonModule$1$$Lambda/0x000076f249370688@433d1041 of PostEnableMessages.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating PostEnableMessages
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServerMixin.java:435)
+	at net.minecraft.class_3176.handler$zcd000$arclight$loadPlugins(DedicatedServerMixin_Vanilla.java:677)
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:161)
+	at MinecraftServer.method_29741(MinecraftServerMixin.java:2075)
+	at MinecraftServer.method_29739(MinecraftServerMixin.java:270)
+	at java.base/Thread.run(Thread.java:1583)
+Caused by: IllegalArgumentException: org/lanternpowered/lmbda/InternalLambdaFactory$$Lambda/Lmbda$1 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:175)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2285)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2359)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1865)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:319)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2) Error notifying InjectionListener CommonModule$1$$Lambda/0x000076f249370688@1def570 of Metrics.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating Metrics
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServerMixin.java:435)
+	at net.minecraft.class_3176.handler$zcd000$arclight$loadPlugins(DedicatedServerMixin_Vanilla.java:677)
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:161)
+	at MinecraftServer.method_29741(MinecraftServerMixin.java:2075)
+	at MinecraftServer.method_29739(MinecraftServerMixin.java:270)
+	at java.base/Thread.run(Thread.java:1583)
+Caused by: IllegalArgumentException: org/lanternpowered/lmbda/InternalLambdaFactory$$Lambda/Lmbda$2 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:175)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2285)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2359)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1865)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:319)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2 errors
+
+======================
+Full classname legend:
+======================
+AccessController:                   "java.security.AccessController"
+AutoBindModule:                     "org.geysermc.floodgate.module.AutoBindModule"
+BaseBusImpl:                        "org.geysermc.event.bus.impl.BaseBusImpl"
+BiConsumer:                         "java.util.function.BiConsumer"
+CommonModule$1$$Lambda:             "org.geysermc.floodgate.module.CommonModule$1$$Lambda"
+ConstructorBindingImpl$Factory:     "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory"
+ConstructorInjector:                "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector"
+EventBusImpl:                       "org.geysermc.event.bus.impl.EventBusImpl"
+Guice:                              "org.geysermc.floodgate.shadow.com.google.inject.Guice"
+InternalFactoryToProviderAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter"
+InternalInjectorCreator:            "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator"
+InternalLambdaFactory:              "org.lanternpowered.lmbda.InternalLambdaFactory"
+InternalMethodHandles$Java9Adapter: "org.lanternpowered.lmbda.InternalMethodHandles$Java9Adapter"
+InternalUtilities:                  "org.lanternpowered.lmbda.InternalUtilities"
+LambdaFactory:                      "org.lanternpowered.lmbda.LambdaFactory"
+MembersInjectorImpl:                "org.geysermc.floodgate.shadow.com.google.inject.internal.MembersInjectorImpl"
+MethodHandleStatics:                "java.lang.invoke.MethodHandleStatics"
+MethodHandles$Lookup:               "java.lang.invoke.MethodHandles$Lookup"
+MethodHandles$Lookup$ClassFile:     "java.lang.invoke.MethodHandles$Lookup$ClassFile"
+MethodHandlesExtensions:            "org.lanternpowered.lmbda.MethodHandlesExtensions"
+Metrics:                            "org.geysermc.floodgate.util.Metrics"
+MinecraftServer:                    "net.minecraft.server.MinecraftServer"
+PostEnableMessages:                 "org.geysermc.floodgate.util.PostEnableMessages"
+ProviderToInternalFactoryAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter"
+ServerCommonModule:                 "org.geysermc.floodgate.module.ServerCommonModule"
+SingletonScope$1:                   "org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1"
+SpigotPlugin:                       "org.geysermc.floodgate.SpigotPlugin"
+========================
+End of classname legend:
+========================
+ initializing floodgate v2.2.3-SNAPSHOT (b109-49bd564) (Is it up to date?)
+Server threadEx org.geysermc.floodgate.shadow.com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) Error notifying InjectionListener CommonModule$1$$Lambda/0x000076f249370688@433d1041 of PostEnableMessages.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating PostEnableMessages
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServerMixin.java:435)
+	at net.minecraft.class_3176.handler$zcd000$arclight$loadPlugins(DedicatedServerMixin_Vanilla.java:677)
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:161)
+	at MinecraftServer.method_29741(MinecraftServerMixin.java:2075)
+	at MinecraftServer.method_29739(MinecraftServerMixin.java:270)
+	at java.base/Thread.run(Thread.java:1583)
+Caused by: IllegalArgumentException: org/lanternpowered/lmbda/InternalLambdaFactory$$Lambda/Lmbda$1 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:175)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2285)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2359)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1865)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:319)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2) Error notifying InjectionListener CommonModule$1$$Lambda/0x000076f249370688@1def570 of Metrics.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating Metrics
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServerMixin.java:435)
+	at net.minecraft.class_3176.handler$zcd000$arclight$loadPlugins(DedicatedServerMixin_Vanilla.java:677)
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:161)
+	at MinecraftServer.method_29741(MinecraftServerMixin.java:2075)
+	at MinecraftServer.method_29739(MinecraftServerMixin.java:270)
+	at java.base/Thread.run(Thread.java:1583)
+Caused by: IllegalArgumentException: org/lanternpowered/lmbda/InternalLambdaFactory$$Lambda/Lmbda$2 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:175)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2285)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2359)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1865)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:319)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2 errors
+
+======================
+Full classname legend:
+======================
+AccessController:                   "java.security.AccessController"
+AutoBindModule:                     "org.geysermc.floodgate.module.AutoBindModule"
+BaseBusImpl:                        "org.geysermc.event.bus.impl.BaseBusImpl"
+BiConsumer:                         "java.util.function.BiConsumer"
+CommonModule$1$$Lambda:             "org.geysermc.floodgate.module.CommonModule$1$$Lambda"
+ConstructorBindingImpl$Factory:     "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory"
+ConstructorInjector:                "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector"
+EventBusImpl:                       "org.geysermc.event.bus.impl.EventBusImpl"
+Guice:                              "org.geysermc.floodgate.shadow.com.google.inject.Guice"
+InternalFactoryToProviderAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter"
+InternalInjectorCreator:            "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator"
+InternalLambdaFactory:              "org.lanternpowered.lmbda.InternalLambdaFactory"
+InternalMethodHandles$Java9Adapter: "org.lanternpowered.lmbda.InternalMethodHandles$Java9Adapter"
+InternalUtilities:                  "org.lanternpowered.lmbda.InternalUtilities"
+LambdaFactory:                      "org.lanternpowered.lmbda.LambdaFactory"
+MembersInjectorImpl:                "org.geysermc.floodgate.shadow.com.google.inject.internal.MembersInjectorImpl"
+MethodHandleStatics:                "java.lang.invoke.MethodHandleStatics"
+MethodHandles$Lookup:               "java.lang.invoke.MethodHandles$Lookup"
+MethodHandles$Lookup$ClassFile:     "java.lang.invoke.MethodHandles$Lookup$ClassFile"
+MethodHandlesExtensions:            "org.lanternpowered.lmbda.MethodHandlesExtensions"
+Metrics:                            "org.geysermc.floodgate.util.Metrics"
+MinecraftServer:                    "net.minecraft.server.MinecraftServer"
+PostEnableMessages:                 "org.geysermc.floodgate.util.PostEnableMessages"
+ProviderToInternalFactoryAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter"
+ServerCommonModule:                 "org.geysermc.floodgate.module.ServerCommonModule"
+SingletonScope$1:                   "org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1"
+SpigotPlugin:                       "org.geysermc.floodgate.SpigotPlugin"
+========================
+End of classname legend:
+========================
+
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:589) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:190) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:113) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.Guice.createInjector(Guice.java:87) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.Guice.createInjector(Guice.java:69) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.Guice.createInjector(Guice.java:59) ~[?:?]
+	at org.geysermc.floodgate.SpigotPlugin.onLoad(SpigotPlugin.java:53) ~[?:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServerMixin.java:435) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at net.minecraft.class_3176.handler$zcd000$arclight$loadPlugins(DedicatedServerMixin_Vanilla.java:677) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:161) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:2075) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[27Jul2024 12:03:20.002] [Server thread/INFO] [ViaBackwards/]: Loading ViaBackwards v5.0.1
+Server threadEx[27Jul2024 12:03:20.002] [Server thread/INFO] [ProtocolLib/]: Loading ProtocolLib v5.2.0-SNAPSHOT-679
+Server threadEx[27Jul2024 12:03:20.122] [Server thread/WARN] [ProtocolLib/]: Loaded class javax.annotation.Nonnull from floodgate v2.2.3-SNAPSHOT (b109-49bd564) which is not a depend or softdepend of this plugin.
+Server threadEx[27Jul2024 12:03:21.366] [Server thread/INFO] [MN/]: Loading MentionNotifier v1.2.2
+Server threadEx[27Jul2024 12:03:21.366] [Server thread/INFO] [LuckPerms/]: Loading LuckPerms v5.4.134
+Server threadEx[27Jul2024 12:03:21.695] [Server thread/INFO] [SkinsRestorer/]: Loading SkinsRestorer v15.4.0
+Server threadEx[27Jul2024 12:03:21.695] [Server thread/INFO] [DecentHolograms/]: Loading DecentHolograms v2.8.9
+Server threadEx[27Jul2024 12:03:21.698] [Server thread/INFO] [Geyser-Spigot/]: Loading Geyser-Spigot v2.4.0-SNAPSHOT
+Server threadEx[27Jul2024 12:03:21.700] [Server thread/WARN] [Geyser-Spigot/]: Missing locale: en_
+Server threadEx[27Jul2024 12:03:22.201] [Server thread/INFO] [Geyser-Spigot/]: Loading extensions...
+Server threadEx[27Jul2024 12:03:22.203] [Server thread/INFO] [Geyser-Spigot/]: Loaded 0 extension(s)
+Server threadEx[27Jul2024 12:03:22.210] [Server thread/INFO] [Vault/]: Loading Vault v1.7.3-b131
+Server threadEx[27Jul2024 12:03:22.210] [Server thread/INFO] [Multiverse-Core/]: Loading Multiverse-Core v4.3.12
+Server threadEx[27Jul2024 12:03:22.241] [Server thread/INFO] [WorldEdit/]: Loading WorldEdit v7.3.3+6788-6359df8
+Server threadEx[27Jul2024 12:03:22.905] [Server thread/WARN] [WorldEdit/]: Loaded class javax.annotation.Nullable from floodgate v2.2.3-SNAPSHOT (b109-49bd564) which is not a depend or softdepend of this plugin.
+Server threadEx[27Jul2024 12:03:22.941] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@683a16da]
+Server threadEx[27Jul2024 12:03:22.948] [Server thread/INFO] [SignColors/]: Loading SignColors v1.1.1
+Server threadEx[27Jul2024 12:03:22.949] [Server thread/INFO] [Essentials/]: Loading Essentials v2.20.0
+Server threadEx[27Jul2024 12:03:22.954] [Server thread/INFO] [PvPManager/]: Loading PvPManager v3.18.16
+Server threadEx[27Jul2024 12:03:22.972] [Server thread/INFO] [ProtocolLib/]: Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+Server threadEx[27Jul2024 12:03:23.000] [Server thread/INFO] [MN/]: Enabling MentionNotifier v1.2.2
+Server threadEx[27Jul2024 12:03:23.029] [Server thread/INFO] [MN/]: MentionNotifier has been enabled (v1.2.2)
+Server threadEx[27Jul2024 12:03:23.029] [Server thread/INFO] [LuckPerms/]: Enabling LuckPerms v5.4.134
+Server threadEx[27Jul2024 12:03:24.422] [Server thread/INFO] [Console/]:         __    
+Server threadEx[27Jul2024 12:03:24.423] [Server thread/INFO] [Console/]:   |    |__)   LuckPerms v5.4.134
+Server threadEx[27Jul2024 12:03:24.424] [Server thread/INFO] [Console/]:   |___ |      Running on Bukkit - Arclight
+Server threadEx[27Jul2024 12:03:24.424] [Server thread/INFO] [Console/]: 
+Server threadEx[27Jul2024 12:03:24.429] [Server thread/INFO] [LuckPerms/]: Loading configuration...
+Server threadEx[27Jul2024 12:03:24.811] [Server thread/INFO] [LuckPerms/]: Loading storage provider... [H2]
+Server threadEx[27Jul2024 12:03:25.991] [Server thread/INFO] [LuckPerms/]: Loading internal permission managers...
+Server threadEx[27Jul2024 12:03:26.231] [Server thread/INFO] [LuckPerms/]: Performing initial data load...
+Server threadEx[27Jul2024 12:03:26.424] [Server thread/INFO] [LuckPerms/]: Successfully enabled. (took 3394ms)
+Server threadEx[27Jul2024 12:03:26.433] [Server thread/INFO] [SkinsRestorer/]: Enabling SkinsRestorer v15.4.0
+Server threadEx[27Jul2024 12:03:28.277] [Server thread/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mRenaming customGUI.enabled to gui.custom.enabled[0;39m
+Server threadEx[27Jul2024 12:03:28.278] [Server thread/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mRenaming customGUI.showOnlyCustomGUI to gui.custom.onlyShowList[0;39m
+Server threadEx[27Jul2024 12:03:28.279] [Server thread/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mRenaming customGUI.list to gui.custom.list[0;39m
+Server threadEx[27Jul2024 12:03:29.271] [Server thread/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.4[32;1m.[0;39m
+Server threadEx[27Jul2024 12:03:29.508] [Server thread/ERROR] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to register Floodgate skin listener (Is floodgate and SkinsRestorer up to date?)[0;39m
+Server threadEx java.lang.NullPointerException: Cannot invoke "org.geysermc.floodgate.api.FloodgateApi.getEventBus()" because the return value of "org.geysermc.floodgate.api.FloodgateApi.getInstance()" is null
+	at net.skinsrestorer.shared.floodgate.FloodgateUtil.registerListener(FloodgateUtil.java:40) ~[?:?]
+	at net.skinsrestorer.shared.plugin.SRPlugin.registerFloodgate(SRPlugin.java:350) ~[?:?]
+	at net.skinsrestorer.shared.plugin.SRServerPlugin.startupPlatform(SRServerPlugin.java:131) ~[?:?]
+	at net.skinsrestorer.shared.plugin.SRPlugin.startup(SRPlugin.java:330) ~[?:?]
+	at net.skinsrestorer.shared.plugin.SRBootstrapper.startPlugin(SRBootstrapper.java:62) ~[?:?]
+	at net.skinsrestorer.bukkit.SRBukkitBootstrap.onEnable(SRBukkitBootstrap.java:45) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:491) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServerMixin.java:541) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServerMixin.java:455) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at net.minecraft.class_3176.handler$zcd000$arclight$loadPlugins(DedicatedServerMixin_Vanilla.java:678) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:161) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:2075) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[27Jul2024 12:03:30.332] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: skinsrestorer [15.4.0]
+Server threadEx[27Jul2024 12:03:30.334] [Server thread/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+Server threadEx[27Jul2024 12:03:30.343] [Server thread/INFO] [Vault/]: Enabling Vault v1.7.3-b131
+Server threadEx[27Jul2024 12:03:30.374] [Server thread/WARN] [Vault/]: Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0 which is not a depend or softdepend of this plugin.
+Server threadEx[27Jul2024 12:03:30.378] [Server thread/INFO] [Vault/]: [Economy] Essentials Economy found: Waiting
+Server threadEx[27Jul2024 12:03:30.468] [Server thread/INFO] [Vault/]: [Permission] SuperPermissions loaded as backup permission system.
+Server threadEx[27Jul2024 12:03:30.508] [Server thread/INFO] [Vault/]: Enabled Version 1.7.3-b131
+Server threadEx[27Jul2024 12:03:30.522] [Server thread/INFO] [LuckPerms/]: Registered Vault permission & chat hook.
+Server threadEx[27Jul2024 12:03:30.523] [Server thread/INFO] [WorldEdit/]: Enabling WorldEdit v7.3.3+6788-6359df8
+Server threadEx[27Jul2024 12:03:30.545] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+Server threadEx[27Jul2024 12:03:30.665] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Vault detected! Using Vault for permissions
+Server threadEx[27Jul2024 12:03:30.888] [Server thread/WARN] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+Server threadEx[27Jul2024 12:03:31.366] [Server thread/INFO] [WorldEdit/]: ====================================================
+Server threadEx[27Jul2024 12:03:31.366] [Server thread/INFO] [WorldEdit/]:  WorldEdit works better if you use Paper 
+Server threadEx[27Jul2024 12:03:31.367] [Server thread/INFO] [WorldEdit/]:  as your server software. 
+Server threadEx[27Jul2024 12:03:31.367] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[27Jul2024 12:03:31.367] [Server thread/INFO] [WorldEdit/]:  Paper offers significant performance improvements,
+Server threadEx[27Jul2024 12:03:31.367] [Server thread/INFO] [WorldEdit/]:  bug fixes, security enhancements and optional
+Server threadEx[27Jul2024 12:03:31.367] [Server thread/INFO] [WorldEdit/]:  features for server owners to enhance their server.
+Server threadEx[27Jul2024 12:03:31.367] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:  Paper includes Timings v2, which is significantly
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:  better at diagnosing lag problems over v1.
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:  All of your plugins should still work, and the
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:  Paper community will gladly help you fix any issues.
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:   
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]:  Join the Paper Community @ https://papermc.io
+Server threadEx[27Jul2024 12:03:31.368] [Server thread/INFO] [WorldEdit/]: ====================================================
+Server threadEx[27Jul2024 12:03:31.369] [Server thread/INFO] [net.minecraft.class_3176/]: Preparing level "Welcome"
+Server threadEx[27Jul2024 12:03:31.384] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+Server threadEx[27Jul2024 12:03:31.750] [Server thread/INFO] [Minecraft/]: -------- World Settings For [Welcome] --------
+Server threadEx[27Jul2024 12:03:31.757] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[27Jul2024 12:03:31.757] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[27Jul2024 12:03:31.757] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[27Jul2024 12:03:31.758] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[27Jul2024 12:03:31.764] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[27Jul2024 12:03:31.765] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[27Jul2024 12:03:31.765] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[27Jul2024 12:03:31.765] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[27Jul2024 12:03:31.765] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[27Jul2024 12:03:31.765] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[27Jul2024 12:03:31.765] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.770] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[27Jul2024 12:03:31.771] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[27Jul2024 12:03:31.776] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[27Jul2024 12:03:31.777] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[27Jul2024 12:03:31.777] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[27Jul2024 12:03:33.491] [Server thread/INFO] [Minecraft/]: -------- World Settings For [Welcome/DIM-1] --------
+Server threadEx[27Jul2024 12:03:33.492] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[27Jul2024 12:03:33.492] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[27Jul2024 12:03:33.492] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[27Jul2024 12:03:33.492] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.493] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[27Jul2024 12:03:33.494] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[27Jul2024 12:03:33.495] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[27Jul2024 12:03:33.495] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[27Jul2024 12:03:33.573] [Server thread/INFO] [Minecraft/]: -------- World Settings For [Welcome/DIM1] --------
+Server threadEx[27Jul2024 12:03:33.573] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[27Jul2024 12:03:33.574] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[27Jul2024 12:03:33.574] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[27Jul2024 12:03:33.575] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[27Jul2024 12:03:33.575] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[27Jul2024 12:03:33.575] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[27Jul2024 12:03:33.576] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[27Jul2024 12:03:33.576] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[27Jul2024 12:03:33.576] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[27Jul2024 12:03:33.577] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[27Jul2024 12:03:33.577] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[27Jul2024 12:03:33.577] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.578] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.578] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.578] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.579] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.579] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.579] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.580] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.580] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.580] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.581] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.581] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.582] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.582] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.582] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[27Jul2024 12:03:33.583] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[27Jul2024 12:03:33.598] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.11.6
+Server threadEx[27Jul2024 12:03:33.868] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
+Server threadEx[27Jul2024 12:03:33.870] [Server thread/INFO] [OnePlayerSleep/]: Enabling OnePlayerSleep v1.3
+Server threadEx[27Jul2024 12:03:33.873] [Server thread/INFO] [ViaVersion/]: Enabling ViaVersion v5.0.1
+Server threadEx[27Jul2024 12:03:33.895] [Server thread/INFO] [ViaVersion/]: ViaVersion detected server version: 1.20.3-1.20.4 (765)
+Server threadEx[27Jul2024 12:03:34.024] [Server thread/INFO] [CS-CoreLib/]: Enabling CS-CoreLib v1.6.3
+Server threadEx[27Jul2024 12:03:34.045] [Server thread/INFO] [floodgate/]: Enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+Server threadEx[27Jul2024 12:03:34.059] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling floodgate v2.2.3-SNAPSHOT (b109-49bd564) (Is it up to date?)
+Server threadEx java.lang.NullPointerException: Cannot invoke "org.geysermc.floodgate.FloodgatePlatform.enable(org.geysermc.floodgate.shadow.com.google.inject.Module[])" because "this.platform" is null
+	at org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:491) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServerMixin.java:541) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServerMixin.java:455) ~[arclight-1.20.4-1.0.4-80ec5df.jar:?]
+	at net.minecraft.server.MinecraftServer.handler$zbh000$arclight$enablePlugins(MinecraftServerMixin.java:2197) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3786(MinecraftServerMixin.java:411) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_3735(MinecraftServerMixin.java:330) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3176.method_3823(DedicatedServerMixin_Vanilla.java:169) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:2075) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:270) ~[server-intermediary.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[27Jul2024 12:03:34.061] [Server thread/INFO] [ViaBackwards/]: Enabling ViaBackwards v5.0.1
+Server threadEx[27Jul2024 12:03:34.104] [Server thread/INFO] [DecentHolograms/]: Enabling DecentHolograms v2.8.9
+Server threadEx[27Jul2024 12:03:34.229] [Server thread/INFO] [Geyser-Spigot/]: Enabling Geyser-Spigot v2.4.0-SNAPSHOT
+Server threadEx[27Jul2024 12:03:34.247] [Server thread/INFO] [Multiverse-Core/]: Enabling Multiverse-Core v4.3.12
+Server threadEx[27Jul2024 12:03:34.258] [Server thread/WARN] [Multiverse-Core/]: "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+Server threadEx[27Jul2024 12:03:34.259] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+Server threadEx[27Jul2024 12:03:34.437] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] 3 - World(s) loaded.
+Server threadEx[27Jul2024 12:03:34.460] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+Server threadEx[27Jul2024 12:03:34.468] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+Server threadEx[27Jul2024 12:03:34.472] [Server thread/INFO] [SignColors/]: Enabling SignColors v1.1.1
+Server threadEx[27Jul2024 12:03:34.483] [Server thread/INFO] [SignColors/]: Successfully loaded the language file (EN.yml)!
+Server threadEx[27Jul2024 12:03:34.562] [Server thread/INFO] [SignColors/]: Loading database (SQLITE).
+Server threadEx[27Jul2024 12:03:34.758] [Server thread/INFO] [SignColors/]: Metrics are ENABLED :)
+Server threadEx[27Jul2024 12:03:34.758] [Server thread/INFO] [SignColors/]: Looking for a newer version...
+Server threadEx[27Jul2024 12:03:34.760] [Server thread/INFO] [SignColors/]: Version 1.1.1 by CodeHat enabled.
+Server threadEx[27Jul2024 12:03:34.766] [Server thread/INFO] [Essentials/]: Enabling Essentials v2.20.0
+Server threadEx[27Jul2024 12:03:34.801] [Server thread/ERROR] [Essentials/]: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
+Server threadEx[27Jul2024 12:03:34.801] [Server thread/INFO] [Essentials/]: Status determining class: net.fabricmc.loader.launch.knot.KnotServer
+Server threadEx[27Jul2024 12:03:35.089] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+Server threadEx[27Jul2024 12:03:35.089] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+Server threadEx[27Jul2024 12:03:35.089] [Server thread/INFO] [Essentials/]: Starting Essentials ban format conversion
+Server threadEx[27Jul2024 12:03:35.089] [Server thread/INFO] [Essentials/]: Attempting to migrate ignore list to UUIDs
+Server threadEx[27Jul2024 12:03:35.089] [Server thread/INFO] [Essentials/]: Attempting to migrate legacy userdata keys to Configurate
+Server threadEx[27Jul2024 12:03:35.326] [Server thread/INFO] [Essentials/]: Loaded 38132 items from items.json.
+Server threadEx[27Jul2024 12:03:35.329] [Server thread/INFO] [Essentials/]: Using locale en
+Server threadEx[27Jul2024 12:03:35.385] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
+Server threadEx[27Jul2024 12:03:35.434] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
+Server threadEx[27Jul2024 12:03:35.438] [Server thread/INFO] [Vault/]: [Economy] Essentials Economy hooked.
+Server threadEx[27Jul2024 12:03:35.446] [Server thread/INFO] [Essentials/]: Using Vault based permissions (LuckPerms)
+Server threadEx[27Jul2024 12:03:35.449] [Server thread/INFO] [PvPManager/]: Enabling PvPManager v3.18.16
+Server threadEx[27Jul2024 12:03:35.527] [Server thread/INFO] [Console/]: [PvPManager] Config file updated from version 79 to version 80
+Server threadEx[27Jul2024 12:03:35.527] [Server thread/WARN] [PvPManager/]: Checking the config file and adjusting the new settings is highly recommended
+Server threadEx[27Jul2024 12:03:35.566] [Server thread/INFO] [Console/]: [PvPManager] Using player nametags: true
+Server threadEx[27Jul2024 12:03:35.688] [Server thread/INFO] [Console/]: [PvPManager] Connected to SQLITE database successfully
+Server threadEx[27Jul2024 12:03:35.700] [Server thread/INFO] [Console/]: [PvPManager] Players stored: 0
+Server threadEx[27Jul2024 12:03:35.733] [Server thread/INFO] [Console/]: [PvPManager] Essentials Found! Hooked successfully
+Server threadEx[27Jul2024 12:03:35.749] [Server thread/INFO] [Console/]: [PvPManager] Vault Found! Using it for currency related features
+Server threadEx[27Jul2024 12:03:35.753] [Server thread/INFO] [Console/]: [PvPManager] PlaceholderAPI Found! Hooked successfully
+Server threadEx[27Jul2024 12:03:35.757] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: pvpmanager [3.18.16]
+Server threadEx[27Jul2024 12:03:35.884] [Server thread/INFO] [Console/]: [PvPManager] PvPManager v3.18.16 enabled (435 ms)
+Server threadEx[27Jul2024 12:03:35.912] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+Server threadEx[27Jul2024 12:03:36.111] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
+Server threadEx[27Jul2024 12:03:36.127] [Server thread/INFO] [Geyser-Spigot/]: ******************************************
+Server threadEx[27Jul2024 12:03:36.128] [Server thread/INFO] [Geyser-Spigot/]: 
+Server threadEx[27Jul2024 12:03:36.129] [Server thread/INFO] [Geyser-Spigot/]: Loading Geyser version 2.4.0-b589 (git-master-ff1e1dd)
+Server threadEx[27Jul2024 12:03:36.129] [Server thread/INFO] [Geyser-Spigot/]: 
+Server threadEx[27Jul2024 12:03:36.130] [Server thread/INFO] [Geyser-Spigot/]: ******************************************
+Server threadEx[27Jul2024 12:03:38.578] [PvPManager Worker Thread - 0/INFO] [PvPManager/]: Checking for updates...
+PvPManager Worker Thread - 0Ex[27Jul2024 12:03:38.728] [PvPManager Worker Thread - 0/INFO] [PvPManager/]: No update found
+PvPManager Worker Thread - 0Ex[27Jul2024 12:03:40.127] [epollEventLoopGroup-3-1/INFO] [Geyser-Spigot/]: Started Geyser on 0.0.0.0:19132
+epollEventLoopGroup-3-1Ex[27Jul2024 12:03:40.189] [Server thread/INFO] [Geyser-Spigot/]: Done (4.062s)! Run /geyser help for help!
+Server threadEx[27Jul2024 12:03:40.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+Server threadEx[27Jul2024 12:03:40.475] [Server thread/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Server threadEx[27Jul2024 12:03:40.792] [Thread-17/INFO] [Geyser-Spigot/]: There's a new Geyser update available to support Bedrock version 1.21.2. Download it here: https://geysermc.org/download
+Thread-17Ex[27Jul2024 12:03:40.951] [Server thread/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Server threadEx[27Jul2024 12:03:41.342] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: Failed to ping the remote Java server! Is it online and configured in Geyser's config?
+Geyser Scheduled Thread-2-1Ex[27Jul2024 12:03:41.407] [Server thread/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Server threadEx[27Jul2024 12:03:43.300] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:43.301] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:43.303] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:44.218] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: Failed to ping the remote Java server! Is it online and configured in Geyser's config?
+Geyser Scheduled Thread-2-1Ex[27Jul2024 12:03:45.680] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:45.700] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:45.714] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:45.715] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:45.715] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:45.989] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:46.517] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:47.138] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:47.236] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: Failed to ping the remote Java server! Is it online and configured in Geyser's config?
+Geyser Scheduled Thread-2-1Ex[27Jul2024 12:03:47.416] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 83%
+Worker-Main-1Ex[27Jul2024 12:03:48.042] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 96%
+Worker-Main-1Ex[27Jul2024 12:03:49.633] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 100%
+Worker-Main-1Ex[27Jul2024 12:03:49.633] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 100%
+Worker-Main-1Ex[27Jul2024 12:03:49.633] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 100%
+Worker-Main-1Ex[27Jul2024 12:03:49.908] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 100%
+Worker-Main-1Ex[27Jul2024 12:03:50.211] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: Failed to ping the remote Java server! Is it online and configured in Geyser's config?
+Geyser Scheduled Thread-2-1Ex[27Jul2024 12:03:50.407] [Worker-Main-1/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 100%
+Worker-Main-1Ex[27Jul2024 12:03:50.665] [Server thread/INFO] [net.minecraft.class_3951/]: Time elapsed: 10259 ms
+Server threadEx[27Jul2024 12:03:50.666] [Server thread/INFO] [net.minecraft.class_3176/]: Done (19.297s)! For help, type "help"
+Server threadEx[27Jul2024 12:03:50.711] [Server thread/WARN] [MN/]: Could not find the latest version available.
+Server threadEx[27Jul2024 12:03:50.820] [Craft Scheduler Thread - 5/INFO] [ViaVersion/]: Finished mapping loading, shutting down loader executor!
+Craft Scheduler Thread - 5Ex[27Jul2024 12:03:50.892] [Server thread/INFO] [Essentials/]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+Server threadEx[27Jul2024 12:03:50.894] [Server thread/INFO] [Console/]: 0 placeholder hook(s) registered!
+Server threadEx[27Jul2024 12:03:50.899] [Craft Scheduler Thread - 6/INFO] [Essentials/]: Fetching version information...
+Craft Scheduler Thread - 6Ex[27Jul2024 12:03:50.993] [Craft Scheduler Thread - 0/INFO] [Vault/]: Checking for Updates ... 
+Craft Scheduler Thread - 0Ex[27Jul2024 12:03:51.046] [Craft Scheduler Thread - 7/ERROR] [SignColors/]: Checking for a newer version FAILED :(
+Craft Scheduler Thread - 7Ex[27Jul2024 12:03:51.063] [Craft Scheduler Thread - 0/INFO] [Vault/]: No new version available
+Craft Scheduler Thread - 0Ex[27Jul2024 12:03:51.186] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.186] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.186] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.193] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.193] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.193] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.193] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.194] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.0[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.194] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m7837da9[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.194] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.194] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+Craft Scheduler Thread - 1Ex[27Jul2024 12:03:51.697] [Craft Scheduler Thread - 6/WARN] [Essentials/]: There is a new EssentialsX version available for download: 2.20.1.
+Craft Scheduler Thread - 6Ex[27Jul2024 12:03:51.697] [Craft Scheduler Thread - 6/WARN] [Essentials/]: Download it here: https://essentialsx.net/downloads.html?branch=stable
+Craft Scheduler Thread - 6Ex[27Jul2024 12:09:43.980] [Server thread/INFO] [Console/]: The port you are testing with (1767) is not the same as you set in your Geyser configuration (19132)
+Server threadEx[27Jul2024 12:09:43.981] [Server thread/INFO] [Console/]: Re-run the command with the port in the config, or change the `bedrock` `port` in the config.
+Server threadEx[27Jul2024 12:09:44.070] [Thread-38/INFO] [Console/]: Testing server connection to 147.185.221.21 with port: 1767 now. Please wait...
+Thread-38Ex[27Jul2024 12:09:44.803] [Thread-38/INFO] [Console/]: Your server is likely online and working as of now!
+Thread-38Ex[27Jul2024 12:09:44.803] [Thread-38/INFO] [Console/]: If you still face issues, check the setup guide for instructions: https://wiki.geysermc.org/geyser/setup/
+Thread-38Ex[27Jul2024 12:09:44.803] [Thread-38/INFO] [Console/]: If that does not work, see https://wiki.geysermc.org/geyser/fixing-unable-to-connect-to-world/, or contact us on Discord: https://discord.gg/geysermc
+Thread-38Ex[27Jul2024 12:09:48.226] [Server thread/INFO] [Console/]: The port you are testing with (1767) is not the same as you set in your Geyser configuration (19132)
+Server threadEx[27Jul2024 12:09:48.226] [Server thread/INFO] [Console/]: Re-run the command with the port in the config, or change the `bedrock` `port` in the config.
+Server threadEx[27Jul2024 12:09:48.280] [Thread-39/INFO] [Console/]: Testing server connection to 147.185.221.21 with port: 1767 now. Please wait...
+Thread-39Ex[27Jul2024 12:09:48.709] [Thread-39/INFO] [Console/]: The MOTD did not match when we pinged the server (we got 'Geyser Connection Test 3cffffffd7'). Did you supply the correct IP and port of your server?
+Thread-39Ex[27Jul2024 12:09:48.709] [Thread-39/INFO] [Console/]: If you still face issues, check the setup guide for instructions: https://wiki.geysermc.org/geyser/setup/
+Thread-39Ex[27Jul2024 12:09:48.709] [Thread-39/INFO] [Console/]: If that does not work, see https://wiki.geysermc.org/geyser/fixing-unable-to-connect-to-world/, or contact us on Discord: https://discord.gg/geysermc
+Thread-39Ex[27Jul2024 12:12:05.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Adam_ a server operator
+Server threadEx[27Jul2024 12:16:47.534] [User Authenticator #1/INFO] [net.minecraft.class_3248/]: UUID of player Adam_ is c9ce08f6-e628-3c5e-ac62-f84466440f07
+User Authenticator #1Ex[27Jul2024 12:16:48.183] [Server thread/INFO] [net.minecraft.class_3324/]: Adam_[/127.23.53.60:46299] logged in with entity id 17 at (0.5, -60.0, 0.5)
+Server threadEx[27Jul2024 12:16:48.530] [Server thread/INFO] [Essentials/]: Created a User for Adam_ (c9ce08f6-e628-3c5e-ac62-f84466440f07) for non Bukkit type: org.bukkit.craftbukkit.v1_20_R3.entity.CraftPlayer
+Server threadEx[27Jul2024 12:16:48.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adam_ joined the game
+Server threadEx[27Jul2024 12:16:48.980] [Server thread/INFO] [net.minecraft.class_3244/]: Adam_ lost connection: Internal Exception: io.netty.handler.codec.EncoderException: java.lang.NoSuchMethodError: 'org.bukkit.advancement.Advancement net.minecraft.class_8779.toBukkit()'
+Server threadEx[27Jul2024 12:16:49.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adam_ left the game
+Server threadEx[27Jul2024 12:17:29.445] [User Authenticator #2/INFO] [net.minecraft.class_3248/]: UUID of player Adam_ is c9ce08f6-e628-3c5e-ac62-f84466440f07
+User Authenticator #2Ex[27Jul2024 12:17:29.727] [Server thread/INFO] [net.minecraft.class_3324/]: Adam_[/127.23.53.60:33033] logged in with entity id 18 at (0.0, -60.0, 0.0)
+Server threadEx[27Jul2024 12:17:29.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adam_ joined the game
+Server threadEx[27Jul2024 12:17:29.917] [Server thread/WARN] [Essentials/]: Permissions lag notice with (LuckPermsHandler). Response took 31.321670ms. Summary: Getting group for Adam_
+Server threadEx[27Jul2024 12:17:29.918] [Server thread/WARN] [Essentials/]: File motd.txt does not exist. Creating one for you.
+Server threadEx[27Jul2024 12:17:30.073] [Server thread/INFO] [net.minecraft.class_3244/]: Adam_ lost connection: Internal Exception: io.netty.handler.codec.EncoderException: java.lang.NoSuchMethodError: 'org.bukkit.advancement.Advancement net.minecraft.class_8779.toBukkit()'
+Server threadEx[27Jul2024 12:17:30.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Adam_ left the game
+Server threadEx
